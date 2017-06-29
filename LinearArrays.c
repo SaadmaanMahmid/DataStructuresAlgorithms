@@ -8,11 +8,11 @@
 
 int linear_array[] = {5,21,16,2,9};   //linear, unordered array of type int
 
-void traversal(int array_size);
-int insertion(int item, int index, int array_size);
-int deletion(int index, int array_size);
-int searching(int item, int array_size);
-void update(int item, int index, int array_size);
+void traversal(int array_size);   //function to traverse through the array
+int insertion(int item, int index, int array_size);   //function to insert an item in the array
+int deletion(int index, int array_size);   //function to delete an item from the array
+int searching(int item, int array_size);   //function to search for an item in the array
+void update(int item, int index, int array_size);    //function to update a specific index in the array
 
 
 int main() {
